@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "vfbfyng6vydx4xhk",
-    "password": "b7f5is0sar73iut9",
-    "database": "ia53h6vsar7nnn1h",
-    "host": "g9fej9rujq0yt0cd.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "username": "root",
+    "password": "football",
+    "database": "bamazon",
+    "host": "localhost",
     "dialect": "mysql",
     "operatorsAliases": false
   },
@@ -16,12 +16,7 @@
     "operatorsAliases": false
   },
   "production": {
-    "username": "vfbfyng6vydx4xhk",
-    "password": "b7f5is0sar73iut9",
-    "database": "ia53h6vsar7nnn1h",
-    "host": "g9fej9rujq0yt0cd.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "use_env_variable": "JAWSDB_URL",
-    "dialect": "mysql",
-    "operatorsAliases": false
+    "dialect": "mysql"
   }
 }
