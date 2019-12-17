@@ -87,6 +87,7 @@ $(document).ready(function() {
   function placeOrder() {
     updating = true;
     updateQuantity();
+    getProducts();
   }
 
   //Updating the product's quantity in the database
