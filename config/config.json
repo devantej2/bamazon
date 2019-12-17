@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": null,
+    "password": "football",
     "database": "bamazon",
     "host": "127.0.0.1",
     "dialect": "mysql",
@@ -16,10 +16,11 @@
     "operatorsAliases": false
   },
   "production": {
-    "username": "root",
-    "password": null,
+    "username": "vfbfyng6vydx4xhk",
+    "password": "b7f5is0sar73iut9",
     "database": "database_production",
-    "host": "127.0.0.1",
+    "host": "g9fej9rujq0yt0cd.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "use_env_variable": "JAWSDB_URL",
     "dialect": "mysql",
     "operatorsAliases": false
   }
