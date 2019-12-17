@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bamazon</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0/lumen/bootstrap.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      media="screen"
+      title="no title"
+    />
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to Bamazon!</h1>
+      <p class="lead">
+        We sell a wide range of products for purchase. Feel free to browse
+        around!
+      </p>
+      <hr class="my-4" />
+    </div>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/api/products">API Products Link</a>
+      </li>
+      <button type="button" class="btn btn-primary shoppingTrig" data-toggle="modal" data-target="#myModal"
+        float:right;>Shopping Cart</button>
+    </ul>
+    <div class="container">
+
+    <table class="table table-bordered table-hover">
+        <!-- TABLE HEADER  -->
+        <thead>
+            <tr>
+                <th class="tabletitle">Product</th>
+                <th class="tabletitle">Price</th>
+                <th class="tabletitle"> Stock </th>
+                <th class="tabletitle"><span>Add To Cart</span> </th>
+            </tr>
+        </thead>
+        <!-- FIRST TABLE ITEM  -->
+        <tbody id="tableBody">
+
+
+        </tbody>
+    </table>
+</div>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">SHOPPING </h4>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="placeOrder" class="btn btn-default" data-dismiss="modal">Order</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js" type="text/javascript"></script>
+  </body>
+</html>
