@@ -1,5 +1,7 @@
 # bamazon
 
+Deployed Link: https://warm-harbor-63488.herokuapp.com/
+
 Storefront web application with Amazon-like features. Using MySQL and Sequelize, the web app will take in orders from customers
 and deplete stock from the store's inventory.
 
